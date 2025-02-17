@@ -1,0 +1,14 @@
+[project]
+name = "cgf-cpf-validator"
+version = "0.1.0"
+description = "Biblioteca Python que valida CPFs (Cadastro de Pessoa Física) utilizando Linguagens Livres de Contexto (CFG)."
+readme = "README.md"
+authors = [
+    { name = "Gabriel Gaia", email = "gaiagabriel22@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
