@@ -12,3 +12,21 @@ dependencies = []
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.ruff]
+indent-width = 4
+line-lenght = 80
+target-version = "py38"
+
+[tool.ruff.lint]
+select = [
+    'E',    # pycodestyle
+    'W',    # pycodestyle
+    'F',    # Pyflakes
+    'UP',   # pyupgrade
+    'I',    # isort
+    'B',    # flake8-bugbear
+    'SIM',  # flake8-simplify
+    'PL',   # Pylint
+    'PT',   # flake8-pytest-style
+]
