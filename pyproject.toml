@@ -1,5 +1,5 @@
 [project]
-name = "cgf-cpf-validator"
+name = "cfg-cpf-validator"
 version = "0.1.0"
 description = "Biblioteca Python que valida CPFs (Cadastro de Pessoa Física) utilizando Linguagens Livres de Contexto (CFG)."
 readme = "README.md"
