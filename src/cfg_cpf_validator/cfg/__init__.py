@@ -12,7 +12,7 @@ CFG_STRUCTURE = n.CFG.fromstring(
 structure_parser = n.parse.ChartParser(CFG_STRUCTURE)
 
 
-def cfg_validate_structure(
+def validate_structure(
     cpf: t.Union[
         str,
         int,
